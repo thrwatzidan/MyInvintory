@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditorActivity"
+    android:background="@drawable/gradiant_bg">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:textColor="@android:color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="8dp"
+                android:text="Product Name"
+                android:textStyle="bold"
+                 />
+
+            <EditText
+                android:textColor="@android:color/white"
+                android:textColorHint="#F3ECEC"
+                android:id="@+id/edt_item_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="8dp"
+                android:hint="Enter Product Name"
+                android:inputType="text" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:textColor="@android:color/white"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:text="Product Price"
+                android:textStyle="bold" />
+
+            <EditText
+                android:textColor="@android:color/white"
+                android:textColorHint="#F3ECEC"
+                android:id="@+id/edt_item_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:hint="Enter Unit Price Per LB"
+                android:inputType="number"
+                android:maxLength="6" />
+
+            <TextView
+                android:textColor="@android:color/white"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:text="$"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:textColor="@android:color/white"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="Quantity"
+                android:textStyle="bold" />
+
+            <Button
+                android:background="@android:color/white"
+                android:id="@+id/btn_increment"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="56dp"
+                android:text="+" />
+
+            <EditText
+                android:textColor="@android:color/white"
+
+                android:id="@+id/edt_item_quantity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:inputType="number"
+                android:maxLength="4"
+                android:text="0"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:layout_gravity="center_horizontal"/>
+
+            <Button
+                android:background="@android:color/white"
+                android:id="@+id/btn_decrement"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="16dp"
+                android:text="-" />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:textColor="@android:color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="8dp"
+                android:text="Supplier Name"
+                android:textStyle="bold" />
+
+            <EditText
+                android:textColorHint="#F3ECEC"
+                android:textColor="@android:color/white"
+                android:id="@+id/edt_supplier_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="8dp"
+                android:hint="Enter Supplier Name" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:textColor="@android:color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="8dp"
+                android:text="Supplier Phone"
+                android:textStyle="bold" />
+
+            <EditText
+                android:textColorHint="#F3ECEC"
+                android:textColor="@android:color/white"
+                android:id="@+id/edt_supplier_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="8dp"
+                android:hint="Enter Supplier Phone"
+                android:inputType="phone"
+                android:maxLength="14" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:textColor="@android:color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="8dp"
+                android:text="Supplier Email"
+                android:textStyle="bold" />
+
+
+            <EditText
+                android:textColorHint="#F3ECEC"
+                android:textColor="@android:color/white"
+                android:id="@+id/edt_supplier_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="8dp"
+                android:hint="Supplier Email"
+                android:inputType="textEmailAddress" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            >
+
+            <Button
+                style="?attr/imageButtonStyle"
+                android:id="@+id/btn_upload_image"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+               android:layout_margin="10dp"
+                android:background="@drawable/gallery"
+                />
+
+            <Button
+                style="?attr/imageButtonStyle"
+                android:id="@+id/btn_camera_image"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:textSize="16sp"
+                android:layout_margin="10dp"
+                android:background="@drawable/camera"
+
+                />
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:id="@+id/img_item"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_gravity="center_horizontal"
+            />
+
+    </LinearLayout>
+
+
+
+</ScrollView>

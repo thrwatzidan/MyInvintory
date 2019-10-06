@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">MyInvintory</string>
+    <string name="action_settings">Settings</string>
+    <string name="add_item">Add Item</string>
+    <string name="edit_item">Edit Item</string>
+    <string name="add_a_product">Add Item</string>
+    <string name="error_with_saving_product">Error With Saving Item</string>
+    <string name="product_saved">Save Done</string>
+    <string name="error_with_updating_product">ERROR While Updating</string>
+    <string name="product_updated">Update Done</string>
+
+    <string name="delete_dialog_msg">Delete this product?</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+    <string name="discard">Discard</string>
+    <string name="keep_editing">Keep Editing</string>
+    <string name="delete">Delete</string>
+    <string name="item_deleted">Item Deleted</string>
+    <string name="done">Done</string>
+    <string name="Edit_a_product">Edit Item</string>
+</resources>
