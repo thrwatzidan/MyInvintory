@@ -4,7 +4,7 @@ SQLITE APP
 
 This Program Build on Udacity database
 program ,,
-maini app to control your data
+mini app to control your data
 ,,sql provider
 
 
